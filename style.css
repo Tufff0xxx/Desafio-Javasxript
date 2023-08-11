@@ -1,0 +1,41 @@
+body{
+    background: url(./img/gotham-pizza.jpg);
+    background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-bar{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+}
+
+.nav-bar-title{
+    padding-top: 20px;
+}
+
+.pizas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
